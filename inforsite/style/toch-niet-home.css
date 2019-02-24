@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+	
+	
+	
+}
+
+header {
+	margin-top: 10em;
+	margin-left: 15em;
+	margin-right: 15em;
+    display: flex;
+}
+
+img {
+	margin: auto;
+    max-height: 100%
+    
+}
+
+header div{
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+    display: inline-block;
+    
+   
+}
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+tr{
+    margin: auto;
+    
+}
+
+th {
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1em;
+    
+}

@@ -1,0 +1,110 @@
+/*NavBar Style*/
+nav{
+    //margin-left: 0px;
+    padding-left: 0px;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 999;
+    background-color: #181c1f;
+    margin-top: 0;
+
+}
+
+nav li {
+    float: left;
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.750em 0.100em;
+	padding-left: 2.400em;
+    text-decoration: none;
+	//font-family: 'Lato', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.520em;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+	color: #FFFF;
+    //background-color: #111;
+	text-decoration: none;
+}
+
+#FirstItem {
+//margin-left: 100px;
+}
+
+#logo{
+margin-left: 30px;
+height: 50px !important;
+//width: 100px !important;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-right: 20px;
+}
+
+nav ul {
+    width: 52%;
+    list-style-type: none;
+    padding: ;
+    overflow: hidden;
+    margin: auto;
+	margin-top: 0;
+	
+}
+
+
+
+
+nav a:before {
+  content: "";
+  position: absolute;
+  width: 4%;
+  max-width:60px;
+  height: 2px;
+  bottom: 8px;
+  background-color: white;
+
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#contact:before{
+  
+  width: 100%;
+  max-width:70px;
+  height: 2px;
+  bottom: 8px;
+  background-color: white;
+
+  
+}
+
+
+
+
+nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+/*End Navbar*/
